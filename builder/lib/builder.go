@@ -7,15 +7,15 @@ type Building struct {
 }
 
 type Builder struct {
-	b *Building
+	b Building
 }
 
 func NewBuilder() *Builder {
-	return &Builder{b: &Building{}}
+	return &Builder{b: Building{}}
 }
 
 func (b *Builder) Reset() {
-	b.b = &Building{}
+	b.b = Building{}
 }
 
 func (b *Builder) AttachComponent1(component string) {
@@ -30,6 +30,6 @@ func (b *Builder) AttachComponent3(component bool) {
 	b.b.Component3 = component
 }
 
-func (b *Builder) Generate() *Building {
+func (b *Builder) Generate() Building {
 	return b.b
 }
