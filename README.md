@@ -10,7 +10,7 @@ lebih mengarah ke struktur dan pola yang digunakan untuk merancang sesuatu.
 design pattern berdasarkan tujuan dari design pattern tersebut yaitu:
 1. Creational Patterns: tentang pola mekanisme pembuatan objek baru
 2. Structural Patterns: tentang bagaimana menggabungkan banyak objek dan class menjadi sebuah struktur  
-3. Behavioral PatternsL tentang membuat komunikasi yang efektif yang dapat digunakan untuk mengelola kegunaan dari tiap objek
+3. Behavioral Patterns: tentang membuat komunikasi yang efektif yang dapat digunakan untuk mengelola kegunaan dari tiap objek
 
 ## List
 Dengan klasifikasi di atas maka design pattern yang akan dipelajari adalah sebagai berikut:
