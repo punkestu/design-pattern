@@ -16,7 +16,7 @@ design pattern berdasarkan tujuan dari design pattern tersebut yaitu:
 Dengan klasifikasi di atas maka design pattern yang akan dipelajari adalah sebagai berikut:
 - Creational Patterns:
   - [x] [Factory Method](https://github.com/punkestu/design-pattern/tree/master/factory-method)
-  - [ ] Abstract Factory
+  - [x] [Abstract Factory](https://github.com/punkestu/design-pattern/tree/master/abstract-factory)
   - [ ] Builder
   - [ ] Prototype
   - [ ] Singleton
