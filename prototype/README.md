@@ -1,6 +1,6 @@
 # PROTOTYPE
 ## Review
-Prototype dapat digunakan ketika kita ingin men-copy suatu objek tapi hasil copy tersebut sudah tidak bisa digunakan untuk mengubah nilai di dalam objek yang dicopy (hanya men-copy nilainya saja). Hal ini dilakukan karena jika kita men-copy sebuah objek secara langsung, maka objek tersebut akan ikut berubah jika kita mengubah hasil dari copy-annya.
+Prototype dapat digunakan ketika kita ingin men-copy suatu objek tapi ingin memastikan bahwa hasil copy tersebut tidak terhubung dan tidak bisa digunakan untuk mengubah nilai di dalam objek yang dicopy (hanya men-copy nilainya saja). Hal ini dilakukan karena jika kita men-copy sebuah objek secara langsung, maka objek tersebut akan saling terhubung dan ikut berubah jika kita mengubah hasil copy-annya.
 
 ## Alur Pembuatan
 Untuk pembuatan fungsi copy ini, kita harus menanamkannya langsung ke dalam class atau struct yang ingin kita copy (atau bisa dengan meletakkannya dalam 1 package). Ini harus dilakukan karena jika ada kondisi dimana kita juga harus men-copy nilai yang private, maka jika kita membuat fungsinya di scope lain kita tidak dapat men-copy nilai private tersebut. Maka alur pembuatannya akan menjadi seperti ini:
