@@ -2,18 +2,14 @@ package lib
 
 import "github.com/punkestu/design-pattern/factory-method/lib/product"
 
-type Factory interface {
-	Produce() product.Product
-}
+type Factory struct{}
 
-type FirstFactory struct{}
-
-func (f FirstFactory) Produce() product.Product {
-	return product.FirstProduct{}
-}
-
-type SecondFactory struct{}
-
-func (s SecondFactory) Produce() product.Product {
-	return product.SecondProduct{}
+func (f Factory) Produce(variant string) product.Product {
+	if variant == "variant_1" {
+		return product.FirstProduct{}
+	} else if variant == "variant_2" {
+		return product.SecondProduct{}
+	} else {
+		return nil
+	}
 }

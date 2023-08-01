@@ -7,11 +7,11 @@ type Product interface {
 type FirstProduct struct{}
 
 func (p FirstProduct) Describe() string {
-	return "this is first product"
+	return "this is first variant"
 }
 
 type SecondProduct struct{}
 
 func (s SecondProduct) Describe() string {
-	return "this is second product"
+	return "this is second variant"
 }
