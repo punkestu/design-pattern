@@ -1,8 +1,8 @@
 package lib
 
 type Factory interface {
-	CreateProductA() ProductA
-	CreateProductB() ProductB
+	CreateProductA(variant string) ProductA
+	CreateProductB(variant string) ProductB
 }
 
 type ProductA interface {
