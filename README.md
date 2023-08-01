@@ -17,9 +17,9 @@ Dengan klasifikasi di atas maka design pattern yang akan dipelajari adalah sebag
 - Creational Patterns:
   - [x] [Factory Method](https://github.com/punkestu/design-pattern/tree/master/factory-method)
   - [x] [Abstract Factory](https://github.com/punkestu/design-pattern/tree/master/abstract-factory)
-  - [x] [Builder](https://github.com/punkestu/design-pattern/tree/creational/builder)
-  - [x] [Prototype](https://github.com/punkestu/design-pattern/tree/creational/prototype)
-  - [x] [Singleton](https://github.com/punkestu/design-pattern/tree/creational/singleton)
+  - [x] [Builder](https://github.com/punkestu/design-pattern/tree/master/builder)
+  - [x] [Prototype](https://github.com/punkestu/design-pattern/tree/master/prototype)
+  - [x] [Singleton](https://github.com/punkestu/design-pattern/tree/master/singleton)
 - Structural Patterns:
   - [ ] Adapter
   - [ ] Bridge
