@@ -7,10 +7,10 @@ import (
 
 type Factory1 struct{}
 
-func (f Factory1) CreateProductA() lib.ProductA {
+func (f Factory1) CreateProductA(variant string) lib.ProductA {
 	return product.A{}
 }
 
-func (f Factory1) CreateProductB() lib.ProductB {
+func (f Factory1) CreateProductB(variant string) lib.ProductB {
 	return product.B{}
 }
