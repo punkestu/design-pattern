@@ -21,8 +21,8 @@ Dengan klasifikasi di atas maka design pattern yang akan dipelajari adalah sebag
   - [x] [Prototype](https://github.com/punkestu/design-pattern/tree/master/prototype)
   - [x] [Singleton](https://github.com/punkestu/design-pattern/tree/master/singleton)
 - Structural Patterns:
-  - [ ] Adapter
-  - [ ] Bridge
+  - [x] Adapter
+  - [x] Bridge
   - [ ] Composite
   - [ ] Decorator
   - [ ] Facade
