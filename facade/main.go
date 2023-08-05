@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	facade := lib.Facade{}
+	facade := lib.NewFacade()
 	res := facade.Transform(
 		lib.Payload{
 			Method: lib.Method1,
