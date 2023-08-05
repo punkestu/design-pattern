@@ -24,7 +24,7 @@ Dengan klasifikasi di atas maka design pattern yang akan dipelajari adalah sebag
   - [x] Adapter
   - [x] Bridge
   - [ ] Composite
-  - [ ] Decorator
+  - [x] Decorator
   - [x] Facade
   - [ ] Flyweight
   - [ ] Proxy
