@@ -25,7 +25,7 @@ Dengan klasifikasi di atas maka design pattern yang akan dipelajari adalah sebag
   - [x] Bridge
   - [ ] Composite
   - [ ] Decorator
-  - [ ] Facade
+  - [x] Facade
   - [ ] Flyweight
   - [ ] Proxy
 - Behavioral Patterns:
